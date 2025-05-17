@@ -1,6 +1,0 @@
-\
-allfiles.txt
-day01
-day02
-Shell-Scripting-For-DevOps
-/home/mnulghani/tws
