@@ -1,0 +1,796 @@
+    1  cd ..
+    2  cd Downloads/
+    3  ls
+    4  chmod 400 "linuxfordevops.pem"
+    5  ssh -i "linuxfordevops.pem" ubuntu@ec2-44-207-3-69.compute-1.amazonaws.com
+    6  cd ..
+    7  mkdir tws
+    8  ls
+    9  cd tws
+   10  ls
+   11  vim hello.txt
+   12  sudo apt install vim -y
+   13  sudo apt update
+   14  sudo apt upgrade
+   15  ls
+   16  restart
+   17  ls
+   18  cd tws
+   19  ls
+   20  cd Shell-Scripting-For-DevOps/ls
+   21  ls
+   22  cd Shell-Scripting-For-DevOps
+   23  ls
+   24  cat README.md 
+   25  cd ..
+   26  vim hello.sh
+   27  chmod 700 hello.sh
+   28  ls
+   29  ./hello.sh 
+   30  which bash
+   31  vim hello.sh
+   32  ./hello.sh 
+   33  ls -l
+   34  chmod 754 hello.sh
+   35  ls -l
+   36  chmod 744 hello.sh
+   37  ls -l
+   38  ~ 
+   39  cd ~
+   40  cd tws/
+   41  ls
+   42  vim jethalalkiduniya.sh
+   43  chmod 755 jethalalkiduniya.sh 
+   44  ./jethalalkiduniya.sh 
+   45  ls -l
+   46  vim jethalalkiduniya.sh
+   47  ./jethalalkiduniya.sh 
+   48  vim jethalalkiduniya.sh
+   49  ./jethalalkiduniya.sh 
+   50  vim jethalalkiduniya.sh
+   51  ./jethalalkiduniya.sh 
+   52  vim jethalalkiduniya.sh
+   53  ./jethalalkiduniya.sh 
+   54  vim jethalalkiduniya.sh
+   55  ./jethalalkiduniya.sh 
+   56  vim jethalalkiduniya.sh
+   57  ./jethalalkiduniya.sh 
+   58  vim jethalalkiduniya.sh
+   59  ./jethalalkiduniya.sh 
+   60  vim jethalalkiduniya.sh
+   61  ./jethalalkiduniya.sh 
+   62  cat /ect/passwd
+   63  cat /etc/passwd
+   64  vim createuser.sh
+   65  chmod 754 createuser.sh 
+   66  ls -l
+   67  ./createuser.sh 
+   68  vim createuser.sh
+   69  ./createuser.sh 
+   70  vim createuser.sh
+   71  ./createuser.sh 
+   72  cat /etc/passwd
+   73  vim createuser.sh
+   74  ls
+   75  useradd bilal
+   76  sudo useradd bilal
+   77  cat /etc/passwd
+   78  top
+   79  cd ..
+   80  ls
+   81  cd home/
+   82  ls
+   83  cd mnulghani/
+   84  ls
+   85  cd Downloads
+   86  ls -l
+   87  cd ..
+   88  cd tws/
+   89  ls
+   90  which vim
+   91  which nano
+   92  nano file.sh
+   93  ls
+   94  rm file.shess 
+   95  ls
+   96  nano newfile.txt
+   97  cat newfile.txt 
+   98  ls
+   99  rm newfile.txt 
+  100  nano hello.txt
+  101  cat hello.txt
+  102  rm hello.txt
+  103  cd days01/
+  104  nano hello.sh
+  105  chmod 754 hello.sh 
+  106  ls -l
+  107  ./hello.sh 
+  108  ls -l
+  109  cd bilal/
+  110  ls
+  111  cd ..
+  112  rm bilal/
+  113  rm -rf bilal/
+  114  ls
+  115  nano hello.sh
+  116  ./hello.sh 
+  117  ls -l
+  118  ./hello.sh 
+  119  cd ..
+  120  ls
+  121  mkdir day02
+  122  cd day02
+  123  nano variables.sh
+  124  chmod 754 variables.sh 
+  125  ./variables.sh 
+  126  nano variables.sh
+  127  ./variables.sh 
+  128  nano variables.sh
+  129  ./variables.sh 
+  130  vim variables.sh 
+  131  ./variables.sh 
+  132  vim createuser.sh
+  133  cmhod 754 createuser.sh 
+  134  chmod 754 createuser.sh 
+  135  ./createuser.sh 
+  136  cat /etc/passwd
+  137  vim createuser.sh 
+  138  ls
+  139  vim variables.sh 
+  140  ./variables.sh 
+  141  history
+  142  fdisk -l
+  143  sudo fdisk -l
+  144  sudo su
+  145  echo $0
+  146  cat /etc/shells
+  147  pwd
+  148  hostname
+  149  vii
+  150  vim ath.sh
+  151  bash ath.sh 
+  152  vim ath.sh 
+  153  bash ath.sh 
+  154  vim ath.sh 
+  155  bash ath.sh 
+  156  vim ath.sh 
+  157  vim evod.sh
+  158  bash evod.sh
+  159  vim evod.sh
+  160  bash evod.sh
+  161  vim eo.sh
+  162  bash eo.sh
+  163  vim eo.sh
+  164  cd ..
+  165  ls
+  166  cd Shell-Scripting-For-DevOps/
+  167  ls
+  168  cd day04
+  169  ls
+  170  vim create_ec2.sh 
+  171  cd ..
+  172  cd tws/
+  173  ls
+  174  mv createuser.sh day01
+  175  ls
+  176  mv hello.sh day01
+  177  mv jethalalkiduniya.sh day01
+  178  ls
+  179  rm -r days01
+  180  ls
+  181  ls -l
+  182  cd day02/
+  183  ls
+  184  vim evenodd.sh 
+  185  bash evenodd.sh 
+  186  vim evenodd.sh 
+  187  bash evenodd.sh 
+  188  vim evenodd.sh 
+  189  cd ..
+  190  cd tws/
+  191  ls
+  192  cd day02/
+  193  ls
+  194  vim ath.sh 
+  195  bah ath.sh 
+  196  bash ath.sh 
+  197  vim ath.sh 
+  198  cp ath.sh math.sh
+  199  vim math.sh 
+  200  bash math.sh 
+  201  vim math.sh 
+  202  bash math.sh 
+  203  vim math.sh 
+  204  bash math.sh 
+  205  vim math.sh 
+  206  bash math.sh 
+  207  bash math.sh
+  208  abcdefghijklmnopqstuvwxyz
+  209  12345678910
+  210  234567891
+  211  bash math.sh
+  212  vim math.sh 
+  213  vim math1.sh
+  214  cd ..
+  215  cd tws/
+  216  cd day02/
+  217  vim math1.sh
+  218  bash math1.sh
+  219  vim case.sh
+  220  bash case.sh 
+  221  vim cond.sh
+  222  bash c
+  223  bash cond.sh 
+  224  vim cond.sh
+  225  bash cond.sh 
+  226  cat cond.sh 
+  227  vim for_loop.sh
+  228  bash for_loop.sh 
+  229  vim for_loop.sh
+  230  bash for_loop.sh 
+  231  vim for_loop.sh
+  232  bash for_loop.sh 
+  233  vim for_loop.sh
+  234  bash for_loop.sh 
+  235  wget https://www.zoom.com/?lang=null
+  236  wget https://zoom.us/download?os=win&ampDeviceId=06390e99-ecd4-4f29-b4e4-90425f25da4d&ampSessionId=1744726253376&_ics=1744726252676&irclickid=%7Ech-b5ZOJPXRUVXOSQRHOFwxpfh%7E-79174VLIJzApka50RNFCwpmd&_gl=1*xkc61f*_gcl_au*MTUwMDQwMzU3OS4xNzQ0NzI2MjUx
+  237  wget -help
+  238  wget man
+  239  wget --help
+  240  wget
+  241  wget https://zoom.us/client/latest/
+  242  wget https://zoom.us/client/latest/zoom_amd64.deb
+  243  sudo apt install ./zoom_amd64.deb
+  244  echo $uid
+  245  su -u
+  246  su 
+  247  passwd 
+  248  passwd
+  249  passwd 
+  250  passwd
+  251  reset
+  252  shutdown
+  253  su
+  254  sudo 
+  255  su root
+  256  root
+  257  passwd
+  258  su
+  259  cd /etc/shadow
+  260  passwd
+  261  su
+  262  su root
+  263  sudo usermod -aG mnulghani 
+  264  su -
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd tws/
+  269  ls
+  270  ls > allfiles.txt
+  271  ls
+  272  cat allfiles.txt 
+  273  date > date.txt
+  274  cat date.txt
+  275  pwd >> allfiles.txt 
+  276  cat allfiles.txt 
+  277  cd ..
+  278  cd tws/
+  279  ls
+  280  mkdir shellscripts
+  281  cd ..
+  282  cd tws/
+  283  cd shellscripts/
+  284  cd ..
+  285  mkdir linuxbasics
+  286  cd linuxbasics/
+  287  pwd
+  288  whoami
+  289  date
+  290  date +%D
+  291  date +%T
+  292  date +%M
+  293  date +%M:H
+  294  date +%M:%H
+  295  date +%H:%M
+  296  ls -lt
+  297  ls -ltr
+  298  ls -lh
+  299  mkdir newdir
+  300  ls -ltr
+  301  clear
+  302  touch file1.txt
+  303  ls
+  304  less
+  305  less file1.txt 
+  306  vi newfile.txt
+  307  ls
+  308  cat new
+  309  cat newfile.txt 
+  310  nano newfile.txt 
+  311  cat newfile.txt 
+  312  ls
+  313  pwd
+  314  echo "hello"
+  315  cp
+  316  cat typescript 
+  317  cd .
+  318  cd ..
+  319  cd tws/
+  320  cd shellscripts/
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd linuxbasics/
+  325  ls
+  326  pwd
+  327  cp newfile.txt /home/mnulghani/tws
+  328  cd ..
+  329  ls
+  330  ls -l
+  331  cd linuxbasics/
+  332  cd ..
+  333  ls
+  334  cd linuxbasics/
+  335  cp ../allfiles.txt .
+  336  ls
+  337  cp ../day02 .
+  338  cp -r ../day02 .
+  339  ls
+  340  rm -rf day02/
+  341  ls
+  342  cp newfile.txt newfile1.txt
+  343  ls
+  344  cat newfile1.txt 
+  345  ls
+  346  mv newdir ../
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd linuxbasics/
+  351  mv newfile1.txt file1.txt
+  352  ls
+  353  cp /home/mnulghani/Downloads/simple.txt .
+  354  ls
+  355  cat simple.txt 
+  356  cp /home/mnulghani/Downloads/long-doc.txt .
+  357  ls
+  358  cat long-doc.txt 
+  359  head -5 long-doc.txt 
+  360  less long-doc.txt 
+  361  head -5 long-doc.txt 
+  362  head -5 simple.txt 
+  363  tail -5 long-doc.txt 
+  364  sort long-doc.txt 
+  365  sort simple.txt 
+  366  sort -r simple.txt 
+  367  vi simple.txt 
+  368  sort simple.txt 
+  369  sort simple.txt | uniq
+  370  split -l 3 simple.txt 
+  371  ls
+  372  cat xaa
+  373  cat xab
+  374  cat xac
+  375  cat long-doc.txt 
+  376  grep elit long-doc.txt 
+  377  grep "elit" long-doc.txt 
+  378  cat long-doc.txt 
+  379  egrep "elit|ipsum" long-doc.txt 
+  380  egrep "elit|ipsum|sit" long-doc.txt 
+  381  ls x*
+  382  touch file{1..5}
+  383  ls
+  384  ls f*
+  385  rm file*
+  386  ls
+  387  shuf long-doc.txt 
+  388  wc -l long-doc.txt 
+  389  vi long-doc.txt 
+  390  wc -l long-doc.txt 
+  391  shuf long-doc.txt 
+  392  wc -l simple.txt 
+  393  cmp long-doc.txt simple.txt 
+  394  diff -u simple.txt long-doc.txt 
+  395  ls
+  396  cat allfiles.txt 
+  397  cmp allfiles.txt simple.txt 
+  398  diff -u simple.txt allfiles.txt 
+  399  cat allfiles.txt 
+  400  cat simple.txt 
+  401  diff -u simple.txt allfiles.txt 
+  402  cd ..
+  403  cd \
+  404  pwd
+  405  ls
+  406  find ./ -name simple.txt
+  407  find ./ -name *.txt
+  408  cd tws/linuxbasics/
+  409  ls
+  410  locate simple.txt 
+  411  updatedb
+  412  sudo apt install locate
+  413  updatedb
+  414  sudoupdatedb
+  415  sudo updatedb
+  416  sudo apt install plocate
+  417  sudo updatedb
+  418  locate simple.txt 
+  419  history
+  420  history | grep sort
+  421  ls -ltr
+  422  ls -lh
+  423  ls --help
+  424  ls --help | more
+  425  man ls
+  426  which ls
+  427  which locate
+  428  bc
+  429  cal
+  430  sudo apt install ncal
+  431  cal
+  432  cal 2024
+  433  cal 1978
+  434  cal may 1978
+  435  uptime
+  436  script
+  437  ls ltr
+  438  cat typescript 
+  439  alias l="ls -ltr"
+  440  l
+  441  alias -p
+  442  gzip -k simple.txt 
+  443  ls
+  444  gzip -k long-doc.txt 
+  445  ls
+  446  gzip allfiles.txt 
+  447  ls
+  448  gzip -d allfiles.txt.gz 
+  449  ls
+  450  gzip allfiles.txt 
+  451  guzip allfiles.txt.gz 
+  452  guzip allfiles.txt.gz
+  453  sudo apt install gunzip
+  454  sudo apt install gzip
+  455  guzip allfiles.txt.gz
+  456  gunzip allfiles.txt.gz
+  457  ls
+  458  gzip allfiles.txt 
+  459  gunzip allfiles.txt.gz
+  460  gzip allfiles.txt 
+  461  ls
+  462  gunzip allfiles.txt.gz
+  463  ls
+  464  mkdir newfolder
+  465  cp *.* newfolder/
+  466  cd newfolder/
+  467  ls
+  468  cd ..
+  469  tar -czf newfolder.tar.gz newfolder/
+  470  ls
+  471  l
+  472  rm -rf newfolder
+  473  l
+  474  tar -xzf newfolder.tar.gz 
+  475  l
+  476  cd newfolder/
+  477  ls
+  478  l
+  479  zip multi.zip simple.txt newfile.txt long-doc.txt allfiles.txt 
+  480  l
+  481  unzip -l multi.zip 
+  482  ls
+  483  wget https://www.python.org/ftp/python/3.13.3/Python-3.13.3.tar.xz
+  484  ls
+  485  wget https://www.python.org/ftp/python/3.13.3/Python-3.13.3.tar.xz .
+  486  ls
+  487  l
+  488  curl https://numbersapi.com/random
+  489  sudo snap install curl -y
+  490  sudo snap install curl
+  491  curl https://numbersapi.com/random
+  492  sudo apt  install curl
+  493  curl https://numbersapi.com/random
+  494  which yum
+  495  yum install nginx
+  496  sudo install nginx
+  497  sudo apt install nginx
+  498  dnf list nginx
+  499  sudo apt install dnf
+  500  dnf list nginx
+  501  rpm -qa | grep sql
+  502  sudo apt install rpm
+  503  rpm -qa | grep sql
+  504  rpm -qa | grep nginx
+  505  rpm -qa | grep python
+  506  dnf list installed
+  507  sudo dnf list installed
+  508  sudo rpm -qa | grep nginx
+  509  sudo rpm -qa | grep sql
+  510  dnf list installed
+  511  rpm -qa | grep python
+  512  [200~# fuser -v /var/lib/rpm
+  513  fuser -v /var/lib/rpm
+  514  apt search nginx
+  515  dnf list available | grep mysql
+  516  systemctl start nginx
+  517  systemctl status nginx
+  518  systemctl stop nginx
+  519  systemctl status nginx
+  520  systemctl list-units --type=service --all
+  521  systemctl list-unit-files
+  522  printenv
+  523  printenv >> printenv.txt
+  524  ls
+  525  cat printenv.txt 
+  526  sudo apt install java
+  527  sudo apt install java-11
+  528  java -version
+  529  sudo apt install default-jre 
+  530  java -version
+  531  cd /usr/lib/jvm
+  532  ls
+  533  l
+  534  printenv
+  535  export JAVA_HOME="/usr/lib/jvm/java-1.21.0-openjdk-amd64
+  536  export JAVA_HOME="/usr/lib/jvm/java-1.21.0-openjdk-amd64"
+  537  printenv
+  538  export PATH=$JAVA_HOME/bin:$PATH
+  539  java -version
+  540  ~
+  541  cd
+  542  ls
+  543  ls -la
+  544  vi .bashrc
+  545  cd tws/linuxbasics/
+  546  awk -F , '{print $2}' long-doc.txt
+  547  awk -F , '{print $2}' simple.txt
+  548  cp /home/mnulghani/Downloads/large-dataset.csv .
+  549  l
+  550  awk -F , '{print $2}' large-dataset.csv 
+  551  cp /home/mnulghani/Downloads/basic-data.csv .
+  552  awk -F , '{print $2}' basic-data.csv 
+  553  awk -F , '{print $3}' basic-data.csv 
+  554  awk -F , '{print $4}' basic.csv
+  555  awk -F , '{print $4}' basic-data.csv 
+  556  cut -c1-2 allfiles.txt 
+  557  l
+  558  cut -c1-2 typescript 
+  559  cut -c1-2 long-doc.txt
+  560  cut -c1 long-doc.txt
+  561  sed -n '5p' long-doc.txt
+  562  sed -n '1p' long-doc.txt
+  563  sed -n '8p' long-doc.txt
+  564  sed -n 's/from/to/g' simple.txt
+  565  cat simple.txt
+  566  l
+  567  cat typescript 
+  568  l
+  569  cat allfiles.txt 
+  570  sed -n 's/from/to/g' allfiles.txt 
+  571  cat allfiles.txt 
+  572  sed -n 'day*/from/to/month' allfiles.txt 
+  573  sed -n 'day/from/to/month' allfiles.txt 
+  574  cat long-doc.txt
+  575  sed -n 's/loren/joren/g' allfiles.txt 
+  576  cat long-doc.txt
+  577  sed -n 's/Lorem/joren/g' allfiles.txt 
+  578  cat long-doc.txt
+  579  sed 's/Lorem/joren/g' allfiles.txt 
+  580  sed 's/Lorem/joren/g' long-doc.txt 
+  581  tr [:lower:] [:upper:] long-doc.txt
+  582  tr [:lower:] [:upper:] <long-doc.txt
+  583  cat allfiles.txt 
+  584  tr -d \ <allfiles.txt
+  585  tr -d "\" <allfiles.txt
+  586  tr -d \ <allfiles.txt
+  587  tr -d / <allfiles.txt
+  588  tr "-" "&" < allfiles.txt
+  589  cat allfiles.txt 
+  590  bc
+  591  truncate -s 100 long-doc.txt
+  592  l
+  593  truncate -s 100 basic-data.csv 
+  594  l
+  595  ls -lh
+  596  truncate -s 100M basic-data.csv 
+  597  ls -lh
+  598  cat basic-data.csv 
+  599  cat long-doc.txt
+  600  echo abcde
+  601  echo ABCDE | fold -w1
+  602  su nadeem
+  603  su
+  604  sudo apt install httpd
+  605  ifconfig
+  606  sudo apt install net-tools
+  607  ifconfig
+  608  l
+  609  chmod g+w long-doc.txt
+  610  l
+  611  chmod o+w long-doc.txt
+  612  l
+  613  chown root long-doc.txt
+  614  free
+  615  free -h
+  616  top
+  617  du
+  618  du -h
+  619  l
+  620  du newfolder
+  621  du -h newfolder
+  622  du -h newfolder/
+  623  df
+  624  df -h
+  625  hostname
+  626  lscpu
+  627  arch
+  628  lsblk
+  629  uptime
+  630  uname -a
+  631  cat /etc/os-release
+  632  ps -ef | grep nginx
+  633  top
+  634  systemctl start nginx
+  635  systemctl status nginx
+  636  top
+  637  ps -ef | grep nginx
+  638  ps -ef | grep httpd
+  639  ps -ef | grep chronjob
+  640  pgrep chron
+  641  pgrep nginx
+  642  ps -ef | grep nginx
+  643  top
+  644  pgrep nginx
+  645  kill -9 31428
+  646  sudo kill -9 31428
+  647  kill -9 31428
+  648  pgrep nginx
+  649  sysemctl status nginx
+  650  systemctl status nginx
+  651  systemctl stop nginx
+  652  systemctl status nginx
+  653  pkill httpd
+  654  jobs
+  655  sleep 5s
+  656  sleep 10s
+  657  jobs
+  658  bg
+  659  fg
+  660  netstat -putan | grep 80
+  661  traceroute
+  662  sudo apt install traceroute
+  663  traceroute google.com
+  664  useradd alex
+  665  sudo useradd alex
+  666  id alex
+  667  sudo userdel alex
+  668  id alex
+  669  l
+  670  cd
+  671  pwd
+  672  cd ..
+  673  ls
+  674  l
+  675  cd mnulghani/
+  676  cd tws/
+  677  cd linuxbasics/
+  678  vi linuxbasics.txt
+  679  cd ..
+  680  l
+  681  cd shellscripts/
+  682  l
+  683  echo $o
+  684  echo $0
+  685  vi 01_hello.sh
+  686  bash 01_hello.sh 
+  687  vi 01_hello.sh 
+  688  bash 01_hello.sh 
+  689  vi 01_hello.sh 
+  690  bash 01_hello.sh 
+  691  chmod +x 01
+  692  chmod +x 01_hello.sh 
+  693  l
+  694  ./01_hello.sh 
+  695  vi 02_comments.sh
+  696  bash 02_comments.sh 
+  697  vi 02_comments.sh
+  698  bash 02_comments.sh 
+  699  vi 02_comments.sh
+  700  vi 03_vardemo.sh
+  701  bash 03
+  702  bash 03_vardemo.sh 
+  703  vi 03_vardemo.sh
+  704  bash 03_vardemo.sh 
+  705  vi 03_vardemo.sh
+  706  bash 03_vardemo.sh 
+  707  cat 03_vardemo.sh 
+  708  vi 03_vardemo.sh
+  709  bash 03_vardemo.sh 
+  710  vi 03_vardemo.sh
+  711  bash 03_vardemo.sh 
+  712  vi 03_vardemo.sh
+  713  bash 03_vardemo.sh 
+  714  vi 04_const_var.sh
+  715  bash 04_const_var.sh 
+  716  vi 04_const_var.sh
+  717  bash 04_const_var.sh 
+  718  vi 04_const_var.sh
+  719  vi 05_arrays.sh
+  720  bash 05_arrays.sh 
+  721  vi 05_arrays.sh
+  722  bash 05_arrays.sh 
+  723  vi 05_arrays.sh
+  724  bash 05_arrays.sh 
+  725  vi 05_arrays.sh
+  726  bash 05_arrays.sh 
+  727  12345678910
+  728  cd ..
+  729  cd linuxbasics/
+  730  l
+  731  cat linuxbasics.txt 
+  732  cd ..
+  733  cd shellscripts/
+  734  ls
+  735  vi 05
+  736  vi 05_arrays.sh 
+  737  bash 05_arrays.sh 
+  738  vi 05_arrays.sh 
+  739  bash 05_arrays.sh 
+  740  vi 05_arrays.sh 
+  741  bash 05_arrays.sh 
+  742  vi 05_arrays.sh 
+  743  bash 05_arrays.sh 
+  744  vi 05_arrays.sh 
+  745  bash 05_arrays.sh 
+  746  vi 06_key_value_array.sh
+  747  bash 06_key_value_array.sh 
+  748  vi 06_key_value_array.sh
+  749  bash 06_key_value_array.sh 
+  750  vi 07_string_ops.sh
+  751  bash 07_string_ops.sh 
+  752  vi 07_string_ops.sh
+  753  bash 07_string_ops.sh 
+  754  vi 07_string_ops.sh
+  755  bash 07_string_ops.sh 
+  756  vi 07_string_ops.sh
+  757  bash 07_string_ops.sh 
+  758  vi 07_string_ops.sh
+  759  bash 07_string_ops.sh 
+  760  vi 07_string_ops.sh
+  761  bash 07_string_ops.sh 
+  762  vi 07_string_ops.sh
+  763  bash 07_string_ops.sh 
+  764  vi 08_user_int.sh
+  765  bash 08_user_int.sh 
+  766  vi 08_user_int.sh
+  767  bash 08_user_int.sh 
+  768  vi 08_user_int.sh
+  769  bash 08_user_int.sh 
+  770  vi 08_user_int.sh
+  771  bash 08_user_int.sh 
+  772  vi 08_user_int.sh
+  773  bash 08_user_int.sh 
+  774  cd ..
+  775  mkdir pradscripts
+  776  rm pradscripts/
+  777  rm -rf pradscripts/
+  778  cd shellscripts/
+  779  mkdir pradscripts
+  780  cd pradscripts/
+  781  vi hello.sh
+  782  bash he
+  783  bash hello.sh 
+  784  vi hello1.sh
+  785  bash hello1.sh 
+  786  l
+  787  cd tws/
+  788  l
+  789  cd shellscripts/
+  790  ls
+  791  free -h
+  792  l
+  793  ls -ltr
+  794  ls -lh
+  795  history
+  796  history > history.txt
